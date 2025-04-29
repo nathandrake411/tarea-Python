@@ -1,8 +1,16 @@
-usuario= "pepito"
-contraseña= "hola777"
+#programa que pida datos para ingresar correctamente
 
-print("agrege su nombre de ususario")
-print("agrege su contraseña")
+usuario = "pepito"
+contraseña = "hola777"
 
-print("usuario:", usuario)
-print("")
+nombre_usuario = input("escribe tu nombre:")
+contraseña_usuario = input("escribe tu contraseña:")
+
+if usuario == nombre_usuario and contraseña == contraseña_usuario:
+    print("bienvenido pepito")
+else:
+    print("error en validacion de datos")
+elif:
+contraseña == contraseña_usuario:
+print("h")
+
