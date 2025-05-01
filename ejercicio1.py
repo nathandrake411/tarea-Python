@@ -10,8 +10,6 @@ if usuario == nombre_usuario and contraseña == contraseña_usuario:
     print("bienvenido pepito")
 else:
     print("error en validacion de datos")
-elif:
-contraseña == contraseña_usuario:
-print("h")
+if
 
 #holaaa
