@@ -8,8 +8,9 @@ contraseña_usuario = input("escribe tu contraseña:")
 
 if usuario == nombre_usuario and contraseña == contraseña_usuario:
     print("bienvenido pepito")
-else:
+elif contraseña == contraseña_usuario:
     print("error en validacion de datos")
-if
+else:
+    print("pista, (h)")
 
 #holaaa
