@@ -3,6 +3,12 @@
 
 #Solicita duración de la canción en minutos (float)
 
-duracion_cancion_minutos = input("se solicita la duracion de su cancion en minutos:")
-genero_musical = 'cual es tu genero musical'
-print = (genero_musical)
+duracion = float(input("Duración (min): "))
+genero = input("Género: ")
+anio = int(input("Año: "))
+
+if duracion < 5 and (genero == "pop" or genero == "rock") and anio > 2010:
+    print("Es adecuada para la playlist.")
+else:
+    print("No es adecuada.")
+
